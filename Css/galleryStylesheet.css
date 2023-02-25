@@ -1,0 +1,198 @@
+.navbar { font-family: 'Roboto' !important;
+    background-color: #333; /* Black background color */
+    position: absolute; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */ }
+ul li a{
+    color: #000;
+    font-family: 'Roboto';
+}
+.navbar{
+        padding: .5rem 1rem;
+        background:transparent;
+        color: #000;  
+    }
+     
+    .navbar-brand{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;   
+    }    
+    
+    .nav-item1{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:25px;
+        color: #000;    
+    }
+    .nav-item2{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:40px; 
+        color: #000;   
+    }
+    .nav-item3{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px;   
+        color: #000;
+    }
+    .nav-item4{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px; 
+        color: #000;   
+    }
+    .nav-item5{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;   
+        color: #000;
+    }
+    .nav-item6{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;
+        color: #000;
+    }
+.list-unstyled{
+    display:inline-block;
+    padding-left:40px ;
+    padding-right:40px ;
+    padding-top:80px;
+    font-family: 'Roboto';
+}
+
+.menuList ul{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 500px 500px; 
+    font-family: 'Roboto';
+}
+
+header{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 500px 500px; 
+    font-family: 'Roboto';
+}
+
+footer{
+ 
+    padding:50px;
+    font-family: 'Roboto';
+}
+
+footer div{
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+
+footer div ul li img{
+    transition: transform 1.3s;
+}
+
+footer div ul li img:hover{
+    transform:scale(2)
+
+}
+
+footer h6{
+    font-family: 'Roboto';
+    font-size:23px;
+}
+
+footer{
+ 
+    background-size: 500px 500px;
+    font-family: 'Roboto';
+}
+
+.display-3{
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+
+.display-1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+}
+
+.nav-link{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 400;
+    color: black;
+    font-family: 'Roboto';
+  }
+
+body{
+    margin:0;
+    font-family: 'Roboto';
+}
+
+nav{
+    margin-bottom:100px;
+    font-family: 'Roboto';
+}
+
+
+.menuList{
+    /*background:linear-gradient(black,#c2d93f);*/
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+
+.galleryContainer{
+    display:grid;
+    width:100%;
+    grid-template-columns: auto auto auto;
+    grid-gap:3px;
+    padding:30px;
+    overflow: hidden;
+    font-family: 'Roboto';
+
+}
+
+
+.galleryContainer img{
+    transition: transform 1s;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    width:300px;
+    height:250px;
+    font-family: 'Roboto';
+}
+
+
+.galleryContainer img:hover{
+    transform:scale(1.1)
+}
+
+
+
+
+@media only screen and (max-width:991px){
+    .galleryContainer{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        font-family: 'Roboto';
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .galleryContainer{
+        display:grid;
+        grid-template-columns: auto auto;
+        font-family: 'Roboto';
+    }
+}

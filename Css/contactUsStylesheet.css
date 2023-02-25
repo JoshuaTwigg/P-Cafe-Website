@@ -1,0 +1,166 @@
+.display-4{
+margin-top: 80px;
+}
+
+.navbar { font-family: 'Roboto' !important;
+    background-color: #333; /* Black background color */
+    position: absolute; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */ }
+ul li a{
+    color: #000;
+    font-family: 'Roboto';
+}
+.navbar{
+        padding: .5rem 1rem;
+        background:transparent;
+        color: #000;  
+    }
+     
+    .navbar-brand{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;   
+    }    
+    
+    .nav-item1{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:25px;
+        color: #000;    
+    }
+    .nav-item2{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:40px; 
+        color: #000;   
+    }
+    .nav-item3{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px;   
+        color: #000;
+    }
+    .nav-item4{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:50px; 
+        color: #000;   
+    }
+    .nav-item5{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;   
+        color: #000;
+    }
+    .nav-item6{
+        font-size: 1rem;
+        font-weight: 400; 
+        margin-right:20px;
+        color: #000;
+    }
+.nav-link{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 400;
+    color: black;
+    font-family: 'Roboto';
+  }
+
+body{
+    background-image: url(../images/design-3561661\ dark.jpg);
+    background-size: 1500px 1500px;
+    font-family: 'Roboto';
+}
+
+nav{
+    margin-bottom: 150px;
+    font-family: 'Roboto';
+}
+
+.MenuList{
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+}
+
+#tellUsHeading{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+h2{
+    color: white;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 150px;
+    color:white;
+}
+
+#contactFormOne{
+    margin-right: 25px;
+}
+
+#contactFormTwo{
+    margin-left: 25px;
+}
+
+form{
+    display:block;
+}
+
+#submit{
+    background-color:white;
+    color: black;
+}
+
+.containerTwo{
+    text-align: center;
+    
+    
+}
+
+
+ul li{
+    color: white;
+    font-size:1px;
+    font-family: 'Roboto';
+}
+
+#name{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+
+#email{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+
+#phone{
+    display:block;
+    height:50px;
+    font-family: 'Roboto';
+}
+
+#textBox{
+    display:block;
+    margin-top:50px;
+    height:200px;
+    font-family: 'Roboto';
+}
+
+#submit{
+    margin-top:50px;
+    font-family: 'Roboto';
+}
+
